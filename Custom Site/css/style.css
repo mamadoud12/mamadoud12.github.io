@@ -1,0 +1,293 @@
+/* Custom stylesheet */
+
+html, body{
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.video {
+  width:700px;
+  height: 400px;
+  border: 2px transparent;
+  background:rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+}
+
+#hero > #mission{
+  color:white;
+  text-align: center;
+  font-size: 28px;
+}
+
+#words{
+  width: 90%;
+  height: 450px;
+  border: 2px transparent;
+  margin: 0 auto;
+  position: relative;
+  background: rgba(0,0,0,0.3);
+}
+
+#words p{
+  font-size: 18px;
+  font-style: none;
+}
+
+#insp{
+  color:white;
+  text-align: center;
+  font-style: italic;
+}
+
+#videoContainer{
+  width: 90%;
+  height: 550px;
+  margin: 0 auto;
+  position: relative;
+  background: transparent;
+}
+
+#videoContainer > img {
+  width:100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+#container1{
+  width: 90%;
+  height: 550px;
+  border: 2px transparent;
+  margin: 0 auto;
+  position: relative;
+  background: transparent;
+}
+
+#container1 > img {
+  width:100%;
+  height: 100%;
+  position: absolute;
+}
+
+#container1 > button {
+  position: absolute;
+}
+
+#container1 > .btn{
+  position: absolute;
+  width: 50px;
+  height: 50px
+  border: none;
+  border-radius: 25px;
+  top: 200px;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+#container1 > #btn1:hover {
+  box-shadow: 10px 0px 20px 0px black;
+}
+
+#container1 > #btn2:hover {
+  box-shadow: -10px 0px 20px 0px black;
+}
+
+#container1 > #btn2{
+  position: relative;
+  float: right;
+}
+
+.text-center{
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+/* Button Override */
+.btn-outline-warning {
+    border-radius: 0;
+    font-size: 14px;
+}
+
+/* Hero */
+
+#hero1{
+  background: url('../img/night-sky.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#hero1 > #hero-text1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#hero1 > #hero-text1 > h1{
+  color: #fff;
+  margin-top:-120px;
+
+}
+
+#hero{
+  background-image:url('../img/night-sky.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width:100%;
+  margin:0 auto;
+  position: relative;
+}
+
+
+
+
+#hero > #hero-text {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#hero > #hero-text > h1{
+  color: #fff;
+  margin-top:-120px;
+
+}
+
+/* Icon Row */
+#iconRow{
+  padding: 60px 0;
+}
+
+
+/*Navigation Menu */
+.custom-navigation{
+  background: transparent;
+  height: 70px;
+  width: 100%;
+  z-index: 99999999;
+}
+
+.custom-navigation #logo{
+  color: #fff;
+  padding: 20px 0 0 25px;
+  font-size:24px;
+}
+
+.custom-navigation #links, #logo{
+  display: inline-block;
+}
+
+.custom-navigation #links{
+  list-style: none;
+  padding:0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 25px 0 0 ;
+
+}
+
+ /*Custom visible class*/
+ /*
+.custom-navigation > #links.visible {
+  background: rgba(0,0,0,0.7);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+*/
+.custom-navigation #links >li {
+  display: inline-block;
+  color: #fff;
+  padding-right: 20px;
+}
+/*
+.custom-navigation #links.visible > li {
+  display: lock;
+  padding-right: 0;
+  margin-top: 15px;
+  font-size: 20px;
+}
+*/
+/*Footer*/
+footer.second{
+	border-top:10px solid black;
+	background-color: black;
+	max-height: 65px;
+	margin: 0;
+  text-align: center;
+}
+
+footer.second p{
+	padding: 5px 0 9px 0;
+	text-align: center;
+  color: #fff;
+}
+
+/*thumbnail */
+
+.my-4, .text-center, .text-lg-left{
+  color:white;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.img-fluid{
+  border: 2px solid black;
+  border-radius: 20px;
+  width:400px;
+  height: 200px;
+}
+
+
+/* Media Queries */
+@media(max-width: 767px) {
+  /* Mobile Nav
+  #hamburger, #close {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 25px;
+    z-index: 99999999;
+  }
+
+
+  .custom-navigation > #links {
+    display: none;
+    padding: 0;
+  }
+
+  #close {
+    display: none;
+  }
+*/
+
+  #hero > #hero-text > h1{
+    font-size: 24px;
+  }
+
+  .sm-dev-padding{
+    padding-top: 60px;
+  }
+}
