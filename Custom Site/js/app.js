@@ -1,8 +1,11 @@
 $(document).ready(function() {
 
-  //Mobile nav functionality
-  $('#hamburger, #close').click(function() {
-    $('#hamburger, #close').toggle();
-    $('.custom-navigation #links').toggleClass('visible');
-  });
+  // responsive menu handler
+
+  $('.toggle-nav').click(function(e) {
+        jQuery(this).toggleClass('active');
+        jQuery('#links').toggleClass('active');
+ 
+        e.preventDefault();
+    });
 });

@@ -222,6 +222,17 @@ ul{
 
 }
 
+.custom-navigation .toggle-nav{
+  list-style: none;
+  padding:0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 25px 0 0 ;
+  display: none;
+
+}
+
  /*Custom visible class*/
  /*
 .custom-navigation > #links.visible {
@@ -281,26 +292,45 @@ footer.second p{
 
 /* Media Queries */
 @media(max-width: 767px) {
-  /* Mobile Nav
-  #hamburger, #close {
-    color: #fff;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 20px 25px;
-    z-index: 99999999;
-  }
 
+    .custom-navigation {
+        position:relative;
+        display:inline-block;
+    }
+ 
+    .custom-navigation #links.active {
+        display:none;
+    }
+ 
+    .custom-navigation #links {
+        padding: 45px 0px;
+    }
+ 
+    .custom-navigation #links li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+ 
+    .custom-navigation #links a {
+        display:block;
+    }
+ 
+    .custom-navigation .toggle-nav {
+        list-style: none;
+        padding:0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px 25px 0 0 ;
+        display:inline-block;
+    }
+ 
+    .custom-navigation .toggle-nav .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#66a992;
+    }
 
-  .custom-navigation > #links {
-    display: none;
-    padding: 0;
-  }
-
-  #close {
-    display: none;
-  }
-*/
 
   #hero > #hero-text > h1{
     font-size: 24px;
