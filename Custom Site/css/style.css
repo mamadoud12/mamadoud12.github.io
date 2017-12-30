@@ -17,8 +17,7 @@ ul{
 #hero{
   background-image:url('../img/night-sky.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width:100%;
+  background-size: cover;
   margin:0 auto;
   position: relative;
 }
@@ -110,20 +109,19 @@ ul{
   font-size: 20px;
 }
 */
+
 /*Footer*/
-footer.second{
-	border-top:10px solid black;
-	background-color: black;
-	max-height: 65px;
-	margin: 0;
+footer{
+  width: 100%;
+  background-color: black;
+  padding: 15px 0px;
+}
+
+footer p{
+  color: white;
   text-align: center;
 }
 
-footer.second p{
-	padding: 5px 0 9px 0;
-	text-align: center;
-  color: #fff;
-}
 
 
 
