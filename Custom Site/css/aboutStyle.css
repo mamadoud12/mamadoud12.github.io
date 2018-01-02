@@ -3,6 +3,7 @@
   color:white;
   text-align: center;
   font-size: 28px;
+  background:rgba(0, 0,0, 0.2);
 }
 
 #words{
@@ -11,7 +12,7 @@
   border: 2px transparent;
   margin: 0 auto;
   position: relative;
-  background: rgba(0,0,0,0.3);
+
 }
 
 #words p{

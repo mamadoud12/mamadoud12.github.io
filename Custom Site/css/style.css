@@ -15,11 +15,19 @@ ul{
 }
 
 #hero{
-  background-image:url('../img/night-sky.jpg');
-  background-repeat: no-repeat;
+  background-image:url('../img/girl.jpg');
   background-size: cover;
-  margin:0 auto;
+  background-position: center bottom;
   position: relative;
+
+  /*
+  background: url('../img/girl.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  */
 }
 
 #hero > #hero-text {
