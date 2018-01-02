@@ -2,7 +2,7 @@
 .btn-outline-warning {
     border-radius:20px;
     font-size: 20px;
-    color: red;
+    color: blue;
 
 }
 
@@ -33,7 +33,10 @@
 }
 
 #hero1 > #hero-text1 > h1{
-  color: red;
+  color: blue;
   margin-top:-120px;
+  font-family: cursive;
+  font-style:oblique;
+  font-size: 50px;
 
 }
