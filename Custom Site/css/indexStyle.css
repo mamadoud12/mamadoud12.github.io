@@ -1,3 +1,4 @@
+
 /* Button Override */
 .btn-outline-warning {
     border-radius:20px;
@@ -34,7 +35,7 @@
 
 #hero1 > #hero-text1 > h1{
   color: blue;
-  margin-top:-120px;
+  margin-top:-100px;
   font-family: cursive;
   font-style:oblique;
   font-size: 50px;
