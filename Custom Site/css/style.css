@@ -21,7 +21,7 @@ ul{
   position: relative;
 
   /*
-  background: url('../img/girl.jpg');
+  background-image: url('../img/girl.jpg');
   background-size: cover;
   background-position: center bottom;
   height: 100%;
@@ -123,6 +123,11 @@ footer{
   width: 100%;
   background-color: transparent;
   padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
 }
 
@@ -149,7 +154,7 @@ footer p{
   background-color: transparent;
   color:white;
   font-size: 15px;
-  position: center;
+  float: center;
 }
 
 .btn-tw{
@@ -158,7 +163,7 @@ footer p{
   background-color: transparent;
   color:white;
   font-size: 15px;
-  position:center;
+  float: center;
 }
 
 

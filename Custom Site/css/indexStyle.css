@@ -1,3 +1,18 @@
+html, body{
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+
 
 /* Button Override */
 .btn-outline-warning {
@@ -13,11 +28,9 @@
 /* Hero */
 
 #hero1{
-  background: url('../img/girl.jpg');
+  background-image:url('../img/girl.jpg');
   background-size: cover;
-  background-position: center bottom ;
-  height: 100%;
-  width: 100%;
+  background-position: center bottom;
   position: relative;
 
 }
@@ -35,9 +48,175 @@
 
 #hero1 > #hero-text1 > h1{
   color: blue;
-  margin-top:-100px;
+  margin-top:220px;
   font-family: cursive;
   font-style:oblique;
   font-size: 50px;
 
+}
+
+
+/*Navigation Menu */
+.custom-navigation{
+  background: transparent;
+  height: 70px;
+  width: 100%;
+  z-index: 99999999;
+}
+
+.custom-navigation #logo{
+  color: #fff;
+  padding: 20px 0 0 25px;
+  font-size:24px;
+}
+
+.custom-navigation #links, #logo{
+  display: inline-block;
+}
+
+.custom-navigation #links{
+  list-style: none;
+  padding:0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 25px 0 0 ;
+
+}
+
+.custom-navigation .toggle-nav{
+  list-style: none;
+  padding:0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 25px 0 0 ;
+  display: none;
+
+}
+
+ /*Custom visible class*/
+ /*
+.custom-navigation > #links.visible {
+  background: rgba(0,0,0,0.7);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+*/
+.custom-navigation #links >li {
+  display: inline-block;
+  color: #fff;
+  padding-right: 20px;
+}
+/*
+.custom-navigation #links.visible > li {
+  display: lock;
+  padding-right: 0;
+  margin-top: 15px;
+  font-size: 20px;
+}
+*/
+
+/*Footer*/
+footer{
+  width: 100%;
+  background-color: transparent;
+  padding: 20px 0px;
+  margin-top: 210px;
+
+}
+
+
+footer p{
+  color: white;
+  font-size: 25px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.btn-ins{
+  border-radius: 20px;
+  margin:5px;
+  background-color: transparent;
+  color:white;
+  font-size: 15px;
+  position: center;
+}
+
+.btn-fb{
+  border-radius: 20px;
+  margin:5px;
+  background-color: transparent;
+  color:white;
+  font-size: 15px;
+  position: center;
+}
+
+.btn-tw{
+  border-radius: 20px;
+  margin:5px;
+  background-color: transparent;
+  color:white;
+  font-size: 15px;
+  position:center;
+}
+
+
+
+
+
+/* Media Queries */
+@media(max-width: 767px) {
+
+    .custom-navigation {
+        position:relative;
+        display:inline-block;
+    }
+
+    .custom-navigation #links.active {
+        display:none;
+    }
+
+    .custom-navigation #links {
+        padding: 45px 0px;
+    }
+
+    .custom-navigation #links li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+
+    .custom-navigation #links a {
+        display:block;
+    }
+
+    .custom-navigation .toggle-nav {
+        list-style: none;
+        padding:0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px 25px 0 0 ;
+        display:inline-block;
+    }
+
+    .custom-navigation .toggle-nav .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#66a992;
+    }
+
+
+  #hero > #hero-text > h1{
+    font-size: 24px;
+  }
+
+  .sm-dev-padding{
+    padding-top: 60px;
+  }
 }
