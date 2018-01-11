@@ -69,6 +69,17 @@
 /* Media Queries */
 @media(max-width: 767px) {
 
+  #container1 > img {
+    width:90%;
+    height: 60%;
+    border-radius: 60px;
+    position: absolute;
+  }
+
+  #container1 > #btn2{
+    position: relative;
+    margin-right: 30px;
+  }
 
 
 
