@@ -80,7 +80,15 @@
     margin-left: 15px;
   }
 
-
+  #container1{
+    width: 90%;
+    height: 550px;
+    border: 2px transparent;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    background: transparent;
+  }
 
 
 
