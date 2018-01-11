@@ -35,7 +35,7 @@
   border-radius: 60px;
   position: absolute;
 }
-
+/*
 #container1 > button {
   position: absolute;
 }
@@ -64,6 +64,8 @@
   position: relative;
   float: right;
 }
+
+*/
 
 
 /* Media Queries */
