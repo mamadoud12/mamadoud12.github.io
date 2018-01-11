@@ -25,6 +25,7 @@
   height: 550px;
   border: 2px transparent;
   margin: 0 auto;
+  margin-top: 20px;
   position: relative;
   background: transparent;
 }
