@@ -24,24 +24,16 @@
 }
 
 .one > img{
-  height:500px;
-  width: 500px;
+  width: 100%;
   border-radius: 20px;
 }
 
 .two {
-    margin-left: 5%;
-    height: 500px;
     background: none;
     border-radius: 20px;
 }
 
 .two > p{
-  display: flex;
-  flex-direction: column;
-  align-items: center ;
-  justify-content: center;
-  text-align: center;
   color: white;
 }
 
