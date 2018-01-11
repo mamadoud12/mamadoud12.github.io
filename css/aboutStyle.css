@@ -74,16 +74,11 @@
 
   #container1 > img {
     width:90%;
-    height: 60%;
+    height: 80%;
     border-radius: 60px;
     position: absolute;
+    margin-left: 15px;
   }
-
-  #container1 > #btn2{
-    position: relative;
-    margin-right: 30px;
-  }
-
 
 
 
